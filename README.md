@@ -11,3 +11,10 @@ It stores key-value pairs 🔑➡️📄, supports insertion, deletion, and sear
 ### Use Case 💡
 Ideal for storing key-value data with fast lookups while handling collisions efficiently. Each bucket uses a linked list 🔗 to store multiple entries with the same hash.
 
+## OpenAddressingHashTable 🏷📬
+
+`OpenAddressingHashTable` uses **open addressing** (linear probing) to handle collisions.  
+Colliding entries are placed in the next available slot in the array.
+
+**Use Case 💡**  
+Great for storing key-value data with fast lookups without using linked lists, resolving collisions by probing sequential slots.
