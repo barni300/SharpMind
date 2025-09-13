@@ -1,6 +1,5 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace dsa_project1;
 public class OpenAddressingHashTable
 {
     public class KeyValue
@@ -132,4 +131,5 @@ public class OpenAddressingHashTable
             AddKeyValue(keyValue.Key, keyValue.Value);
         }
     }
+
 }
